@@ -83,9 +83,9 @@
         function sendEmail() {
             Email.send({
             Host : "smtp.gmail.com",
-            Username : "amanraj12.ar@gmail.com",
-            Password : "Amaneshu@12",
-            To : 'amanrajofficialmail@gmail.com',
+            Username : "", //smtp server username
+            Password : "", //password of smtp 
+            To : '.......@gmail.com', // where you have to store form data
             From : document.getElementById("email").value,
             Subject : "Code Alpha Survey Form",
             Body :  " Name: " + document.getElementById("name").value
